@@ -1,20 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="28.1.2">
   <diagram name="Page-1" id="TajDcj7DSJ9yl3eMbXjo">
-    <mxGraphModel dx="2474" dy="1434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FiI3FQmJb6Hm_JwSV2ui-1" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="230" width="40" height="60" as="geometry" />
+        <mxCell id="FiI3FQmJb6Hm_JwSV2ui-1" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="210" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FiI3FQmJb6Hm_JwSV2ui-2" value="Front End" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="160" width="200" height="200" as="geometry" />
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-2" value="Web Interface Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FiI3FQmJb6Hm_JwSV2ui-3" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="160" width="200" height="200" as="geometry" />
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-3" value="Guess Table" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="272" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FiI3FQmJb6Hm_JwSV2ui-4" value="API Layer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="160" width="200" height="200" as="geometry" />
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-4" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="569" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-6" value="/create-user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-7" value="/login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="271" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-8" value="/guess" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="322" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-9" value="/suggestion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="374" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-10" value="/statistics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="425" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-11" value="Valid Words&amp;nbsp;&lt;div&gt;Table&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-13" value="User Pool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="638" y="110" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-14" value="Solution History&amp;nbsp;&lt;div&gt;Table&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="425" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="599" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-16" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
+          <mxGeometry x="630" y="660" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="crAHrTmi8_EJSXEyBsWc-17" value="Calculate &amp;amp; Save Today&#39;s Worldle Solution" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
