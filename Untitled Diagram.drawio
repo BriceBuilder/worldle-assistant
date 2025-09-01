@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="28.1.2" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="28.1.2" pages="2">
   <diagram id="rg25EcB-OHPH87icr8F3" name="Page-2">
     <mxGraphModel dx="1237" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -6,17 +6,17 @@
         <mxCell id="1" parent="0" />
         <UserObject label="&lt;b&gt;Specified Requirements&lt;br&gt;&lt;/b&gt;For the interview on Tuesday the 2nd, please be prepared to present an architecture diagram for a web based tool that will help non-technical user solve Wordle puzzles. Describe the technology stack you would recommend for this solution and propose the high level logic steps. &lt;br&gt;&lt;ul&gt;&lt;li&gt;The solution should:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Allow the user to make the initial guess via a web interface&amp;nbsp;&lt;/li&gt;&lt;li&gt;Sugget a reasonable next guess&amp;nbsp;&lt;/li&gt;&lt;li&gt;Track the users scores over time when they use this tool.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Not rely on existing Wordle solutions such as&lt;/li&gt;&lt;ul&gt;&lt;li&gt;https://pypi.org/project/wordle-autosolver/&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" link="Product Requirements&#xa;For the interview on Tuesday the 2nd, please be prepared to present an architecture diagram for a web based tool that will help non-technical user solve Wordle puzzles. Describe the technology stack you would recommend for this solution and propose the high level logic steps. &#xa;The solution should:&#xa;Allow the user to make the initial guess via a web interface &#xa;Suggest a reasonable next guess &#xa;Track the users scores over time when they use this tool. &#xa;Not rely on existing Wordle solutions such as&#xa;https://pypi.org/project/wordle-autosolver/&#xa;&#xa;Design Guidelines&#xa;Minimize user input&#xa;Keep it Super Simple (KISS)&#xa;Event Driven&#xa;Serverless&#xa;Cloud Native&#xa;Stateless Frontend&#xa;Stateful Database&#xa;&#xa;&#xa;Tech Stack:&#xa;Web Interface:  React Framework running on AWS ECS&#xa;Backend API Layer: AWS API Gateway with multiple routes&#xa;Core Processing Logic: Python executed by Lambda functions, trigger by Events&#xa;Database: Amazon RDS, Postgres&#xa;Identity Provider: Cognito" id="H_-AP8sSiu5K2X2Lht5T-2">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="30" y="70" width="560" height="170" as="geometry" />
+            <mxGeometry x="30" y="30" width="560" height="170" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H_-AP8sSiu5K2X2Lht5T-2" target="H_-AP8sSiu5K2X2Lht5T-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-4" value="&lt;b&gt;Imposed Design Guidelines&lt;br&gt;&lt;/b&gt;Minimize user input&lt;br&gt;Keep it Super Simple (KISS)&lt;br&gt;Event Driven&lt;br&gt;Serverless&lt;br&gt;Cloud Native&lt;br&gt;Stateless Frontend&lt;br&gt;Stateful Database" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="70" width="180" height="140" as="geometry" />
+          <mxGeometry x="750" y="30" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-14" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="170" y="510" width="735" height="330" as="geometry" />
+          <mxGeometry x="170" y="500" width="735" height="343" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-14">
           <mxGeometry width="735" height="46" as="geometry" />
@@ -37,25 +37,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-14">
-          <mxGeometry y="46" width="735" height="51" as="geometry" />
+          <mxGeometry y="46" width="735" height="64" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-20" value="Web UI" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-19">
-          <mxGeometry width="244" height="51" as="geometry">
-            <mxRectangle width="244" height="51" as="alternateBounds" />
+          <mxGeometry width="244" height="64" as="geometry">
+            <mxRectangle width="244" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-21" value="React Framework (i.e. Next.js)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-19">
-          <mxGeometry x="244" width="247" height="51" as="geometry">
-            <mxRectangle width="247" height="51" as="alternateBounds" />
+          <mxGeometry x="244" width="247" height="64" as="geometry">
+            <mxRectangle width="247" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H_-AP8sSiu5K2X2Lht5T-22" value="React documentation recommends using a React Framework. &amp;nbsp;Common for building dynamic webpages" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-19">
-          <mxGeometry x="491" width="244" height="51" as="geometry">
-            <mxRectangle width="244" height="51" as="alternateBounds" />
+        <mxCell id="H_-AP8sSiu5K2X2Lht5T-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;React documentation recommends using a React Framework. &amp;nbsp;React widely adopted for dynamic web applications&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-19">
+          <mxGeometry x="491" width="244" height="64" as="geometry">
+            <mxRectangle width="244" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-14">
-          <mxGeometry y="97" width="735" height="46" as="geometry" />
+          <mxGeometry y="110" width="735" height="46" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-24" value="API Layer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-23">
           <mxGeometry width="244" height="46" as="geometry">
@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZeXH-uPBscyxkbKZtAdb-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-14">
-          <mxGeometry y="143" width="735" height="42" as="geometry" />
+          <mxGeometry y="156" width="735" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ZeXH-uPBscyxkbKZtAdb-2" value="Messaging Layer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-1">
           <mxGeometry width="244" height="42" as="geometry">
@@ -91,9 +91,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZeXH-uPBscyxkbKZtAdb-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-14">
-          <mxGeometry y="185" width="735" height="45" as="geometry" />
+          <mxGeometry y="198" width="735" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZeXH-uPBscyxkbKZtAdb-10" value="Processing" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-9">
+        <mxCell id="ZeXH-uPBscyxkbKZtAdb-10" value="Business Logic" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-9">
           <mxGeometry width="244" height="45" as="geometry">
             <mxRectangle width="244" height="45" as="alternateBounds" />
           </mxGeometry>
@@ -103,13 +103,13 @@
             <mxRectangle width="247" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZeXH-uPBscyxkbKZtAdb-12" value="Large user base, well supported" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-9">
+        <mxCell id="ZeXH-uPBscyxkbKZtAdb-12" value="open source, well supported, large user base" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-9">
           <mxGeometry x="491" width="244" height="45" as="geometry">
             <mxRectangle width="244" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZeXH-uPBscyxkbKZtAdb-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-14">
-          <mxGeometry y="230" width="735" height="48" as="geometry" />
+          <mxGeometry y="243" width="735" height="48" as="geometry" />
         </mxCell>
         <mxCell id="ZeXH-uPBscyxkbKZtAdb-14" value="Database" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-13">
           <mxGeometry width="244" height="48" as="geometry">
@@ -121,13 +121,13 @@
             <mxRectangle width="247" height="48" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZeXH-uPBscyxkbKZtAdb-16" value="Open source" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-13">
+        <mxCell id="ZeXH-uPBscyxkbKZtAdb-16" value=".." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-13">
           <mxGeometry x="491" width="244" height="48" as="geometry">
             <mxRectangle width="244" height="48" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZeXH-uPBscyxkbKZtAdb-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;align=left;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-14">
-          <mxGeometry y="278" width="735" height="52" as="geometry" />
+          <mxGeometry y="291" width="735" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ZeXH-uPBscyxkbKZtAdb-18" value="Identity Provider" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="ZeXH-uPBscyxkbKZtAdb-17">
           <mxGeometry width="244" height="52" as="geometry">
@@ -144,25 +144,26 @@
             <mxRectangle width="244" height="52" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H_-AP8sSiu5K2X2Lht5T-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_-AP8sSiu5K2X2Lht5T-29">
+        <mxCell id="H_-AP8sSiu5K2X2Lht5T-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="380" as="targetPoint" />
+            <mxPoint x="280" y="372" as="targetPoint" />
+            <mxPoint x="200" y="372" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-29" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="350" width="40" height="60" as="geometry" />
+          <mxGeometry x="160" y="342" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H_-AP8sSiu5K2X2Lht5T-31" target="H_-AP8sSiu5K2X2Lht5T-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-31" value="Frontend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="330" width="100" height="120" as="geometry" />
+          <mxGeometry x="280" y="322" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-6" value="Web UI" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-31">
           <mxGeometry x="10" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-32" value="Backend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="290" width="190" height="210" as="geometry">
+          <mxGeometry x="660" y="282" width="190" height="210" as="geometry">
             <mxRectangle x="660" y="290" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -177,11 +178,11 @@
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_-AP8sSiu5K2X2Lht5T-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="390" as="targetPoint" />
+            <mxPoint x="660" y="382" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-36" value="Frontend-Backend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="330" width="190" height="120" as="geometry" />
+          <mxGeometry x="430" y="322" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="H_-AP8sSiu5K2X2Lht5T-8" value="Messaging Layer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="H_-AP8sSiu5K2X2Lht5T-36">
           <mxGeometry x="100" y="30" width="80" height="80" as="geometry" />
@@ -193,7 +194,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page-1" id="TajDcj7DSJ9yl3eMbXjo">
-    <mxGraphModel dx="1649" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,37 +429,8 @@
         <mxCell id="gakLt2WNvY610qKhPgTi-1" value="&lt;u&gt;Wordle Assistant - MVP Proposal&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="5.5" y="7" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gakLt2WNvY610qKhPgTi-2" value="&lt;b&gt;MVP Overview&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;The Web UI will be hosted on AWS ECS Fargate&lt;/li&gt;&lt;li&gt;API gateway and Eventbridge will be the event sources&lt;/li&gt;&lt;li&gt;Interactions trigger endpoints trigger lambda functions&lt;/li&gt;&lt;li&gt;Date will be persisted in a RDS database&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5.5" y="80" width="360" height="110" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="X9h27lxKBmxj8Xe7s42t" name="Page-3">
-    <mxGraphModel dx="1649" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="U_Ah0_mHAUh4TGpHhYTk-1" value="VPC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="250" width="510" height="540" as="geometry" />
-        </mxCell>
-        <mxCell id="U_Ah0_mHAUh4TGpHhYTk-2" value="AZ - 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U_Ah0_mHAUh4TGpHhYTk-1">
-          <mxGeometry x="20" y="40" width="210" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="U_Ah0_mHAUh4TGpHhYTk-5" value="Private Subnet" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U_Ah0_mHAUh4TGpHhYTk-2">
-          <mxGeometry x="20" y="220" width="170" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="U_Ah0_mHAUh4TGpHhYTk-4" value="App Instance" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="U_Ah0_mHAUh4TGpHhYTk-5">
-          <mxGeometry x="46" y="60" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="U_Ah0_mHAUh4TGpHhYTk-3" value="AZ - 2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U_Ah0_mHAUh4TGpHhYTk-1">
-          <mxGeometry x="270" y="40" width="220" height="450" as="geometry" />
-        </mxCell>
-        <mxCell id="U_Ah0_mHAUh4TGpHhYTk-6" value="Private Subnet" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U_Ah0_mHAUh4TGpHhYTk-3">
-          <mxGeometry x="25" y="220" width="170" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="U_Ah0_mHAUh4TGpHhYTk-7" value="App Instance" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="U_Ah0_mHAUh4TGpHhYTk-6">
-          <mxGeometry x="46" y="51" width="78" height="78" as="geometry" />
+        <mxCell id="gakLt2WNvY610qKhPgTi-2" value="&lt;b&gt;MVP Overview&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;The UI will look as close to the Wordle interface as possible&lt;/li&gt;&lt;li&gt;The Web UI will be hosted on AWS ECS Fargate&lt;/li&gt;&lt;li&gt;API gateway and Eventbridge will be the event sources&lt;/li&gt;&lt;li&gt;Interactions trigger endpoints trigger lambda functions&lt;/li&gt;&lt;li&gt;Date will be persisted in a RDS database&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5.5" y="75" width="380" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
